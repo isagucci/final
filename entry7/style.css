@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(38, 26, 94);
+  cursor: default;
+  height: 100vh;
+  position: relative;
+}
+
+header nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "feneon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(233, 88, 52);
+  font-size: 30px;
+  text-align: center;
+}
+
+a:hover {
+  text-shadow: 5px 5px 20px rgba(233, 88, 52, 0.8);
+  cursor: pointer;
+}
+
+.center {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  font-family: "feneon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(233, 88, 52);
+  font-size: 25px;
+  text-align: center;
+}
+
+.back-home-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: rgb(233, 88, 52);
+  font-family: "feneon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 999; 
+}
+
+.back-home-link:hover {
+  text-shadow: 2px 2px 5px rgba(233, 88, 52, 0.8);
+}
+
+.main-content {
+  margin-left: 30vw; 
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.main-content h1 {
+  font-family: "feneon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(233, 88, 52);
+  font-size: 76px;
+  text-align: center;
+}
+.main-content h2 {
+  font-family: "feneon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(233, 88, 52);
+  font-size: 36px;
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  font-family: "feneon", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: rgb(233, 88, 52);
+  font-size: 20px;
+  line-height: 1.5;
+  margin-right: 40vw;
+  padding: 30px;
+  margin-left: 35vw; 
+  padding: 30px;
+}
+.text {
+  font-family: "feneon", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: rgb(233, 88, 52);
+  font-size: 30px;
+  line-height: 1.5;
+  margin-right: 5vw;
+  padding: 30px;
+  margin-left: 60vw; 
+  padding: 30px;
+}
+.texts {
+  font-family: "feneon", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  color: rgb(233, 88, 52);
+  font-size: 50px;
+  line-height: 1.5;
+  margin-right: 20vw;
+  padding: 30px;
+  margin-left: 35vw;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "feneon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(233, 88, 52);
+  font-size: 76px;
+  text-align: center;
+}
+
+.side-nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  bottom: 0; 
+  width: 400px; 
+  border-right: 3px solid rgba(233, 88, 52, 0.5); 
+  overflow-y: auto;
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-nav ul li {
+  padding: 10px 20px;
+
+}
+
+.side-nav ul li.selected {
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px rgba(233, 88, 52, 0.5);
+}
+
+a:hover{
+  text-shadow: 2px 2px 5px rgba(233, 88, 52, 0.5);
+}
+
+img{
+  max-width: 45vw;
+  position: relative;
+  left: 10vw;
+}
+
+

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(36, 24, 91);
+  cursor: default;
+}
+
+header nav {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  font-family: "feneon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(233, 88, 52);
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgba(233, 88, 52, 0.5);
+  text-align: center;
+}
+
+.random:hover,a:hover {
+  text-shadow: 5px 5px 20px rgba(233, 88, 52, 0.8);
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr)); 
+  grid-gap: 10px;
+  margin: 50px;
+  overflow-y: auto; 
+  max-height: calc(100vh - 200px); 
+}
+
+.grid-item {
+  border: 10px solid rgb(233, 88, 52);
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease; 
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+ 
+}
+
+
+.grid-item:hover  {
+  filter: grayscale(0%);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(233, 88, 52);
+}
